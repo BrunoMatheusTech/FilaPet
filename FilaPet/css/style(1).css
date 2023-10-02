@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body{
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffff;
+        }
+
+        /* Estilo para a barra de navegação */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #0CB236;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+           
+        }
+
+       main{
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+      
+       }
+
+       header{
+        background-color: #F6F6F6;
+       }
+
+       .quem-somos{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 100px;
+        margin-left: 75px;
+       }
+
+       .conhecendo{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+       }
+
+       .texto1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin-top: -8px;
+        font-size: 21px;
+       }
+
+
+        /* Estilo para os itens da barra de navegação */
+        ul.navbar li {
+            float: left;
+
+        }
+
+        ul.navbar li a {
+            display: flex;
+            justify-content: space-between;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+       
+            
+        }
+
+        img{
+            display: flex;
+            justify-content: left;
+        }
+        /* Mudar a cor do link ao passar o mouse */
+        ul.navbar li a:hover {
+            background-color: #378f4d;
+        }
+
+        a{
+          display: flex;
+          margin-top: 20px;
+          justify-content: flex-end;
+           
+        }
+
+
+        .greentext{
+            color: #0CB236;
+            font-size: 20px;
+            
+        }
+
+        .instagram{
+            display: flex;
+        }
+
+        .google{
+            display: flex;
+        }
+
+        .redes{
+            display: flex;
+            
+        }
+   
+        .bio1{
+            display: flex;
+            
+            flex-direction: row;
+            align-items: center;
+            margin-left: 5%;
+            
+        }
+
+        .title{
+            margin-left: 3%;
+        }
+
+        .fotos{
+            margin-left: 120px;
+        }
+
+        .caixa2{
+            margin-left: 120px; 
+        }
